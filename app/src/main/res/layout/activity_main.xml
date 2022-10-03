@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/saludoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hola Mundo!"
+        android:textAlignment="center"
+
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/txtNum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese un numero"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese otro numero"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        android:textAlignment="center"
+        android:textSize="40sp" />
+
+
+    <Button
+        android:id="@+id/botonSumar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sumar"
+        android:text="Sumar"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/botonRestar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="restar"
+        android:text="Restar"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/botonMultiplicar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="multiplicar"
+        android:text="Multiplicar"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/botonDividir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="dividir"
+        android:text="Dividir"
+        android:textSize="25sp" />
+
+
+</LinearLayout>
